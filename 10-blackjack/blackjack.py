@@ -27,6 +27,7 @@ def main():
             if sum(computer_cards) > 16:
                 break
     check_result(computer_cards, user_cards)
+    # print(len(cards))   # 检查一下牌堆的牌数量是否正确
 
 
 def start():
