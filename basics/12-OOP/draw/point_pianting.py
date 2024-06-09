@@ -34,7 +34,7 @@ def draw(colors):
             turtle.forward(40)
 
 def main():
-    colors = extract_color('./color_palette.jpg', 30)
+    colors = extract_color('color_palette.jpg', 30)
     draw(colors)
 
 
